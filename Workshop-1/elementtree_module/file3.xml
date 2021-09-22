@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<mealplans xmlns:food="some.food.URI.com">
+    <food:mealplan week="1">
+        <meal day="Monday">roast beef</meal>
+        <meal day="Tuesday">tuna helper</meal>
+        <meal day="Wednesday">pizza</meal>
+        <meal day="Thursday">chicken soup</meal>
+        <meal day="Friday">veggie lasagna</meal>
+    </food:mealplan>
+    <food:mealplan week="2">
+        <meal day="Monday">fried fish</meal>
+        <meal day="Tuesday">black bean burgers</meal>
+        <meal day="Wednesday">chicken gnocchi soup</meal>
+        <meal day="Thursday">red beans and rice</meal>
+        <meal day="Friday">gumbo</meal>
+    </food:mealplan>
+    <mealplan week="3">
+        <meal day="Monday">fried chicken</meal>
+        <meal day="Tuesday">flank steak</meal>
+        <meal day="Wednesday">pork roast and vegetables</meal>
+        <meal day="Thursday">cookies and cake</meal>
+        <meal day="Friday">churros with ice cream and chocolate sauce</meal>
+    </mealplan>
+</mealplans>

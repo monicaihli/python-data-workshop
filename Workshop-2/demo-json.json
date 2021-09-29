@@ -1,0 +1,35 @@
+{
+  "snacks": [
+    {
+      "product": "cookie",
+      "type": "chocolate chip",
+      "bakedon": "03/10/2020",
+      "sellby": "03/14/2020"
+    },
+    {
+      "product": "cookie",
+      "type": "oatmeal raisen",
+      "sellby": "03/13/2020"
+    },
+    {
+      "product": "cookie",
+      "type": "peanut butter",
+      "sellby": "03/15/2020"
+    },
+    {
+      "product": "pie",
+      "type": "apple",
+      "sellby": "03/05/2020"
+    },
+    {
+      "product": "pie",
+      "type": "pecan",
+      "sellby": "03/09/2020"
+    },
+    {
+      "product": "pie",
+      "type": "pumpkin",
+      "sellby": "03/06/2020"
+    }
+  ]
+}

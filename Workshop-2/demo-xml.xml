@@ -1,0 +1,13 @@
+<?xml version = "1.0" encoding = "UTF-8"?>  <!-- document prolog -->
+<snacks> <!-- root element -->
+    <cookies> <!-- an open tag -->
+        <cookie baked_on = "03/10/2020" sellby="03/14/2020">chocolate chip</cookie><!-- multiple attributes -->
+        <cookie sellby="03/13/2020">oatmeal raisin</cookie>
+        <cookie sellby="03/15/2020">peanut butter</cookie>
+    </cookies> <!-- a close tag -->
+    <pies>
+        <pie sellby="03/5/2020">apple</pie>
+        <pie sellby="03/9/2020">pecan</pie>
+        <pie sellby="03/6/2020">pumpkin</pie>
+    </pies>
+</snacks>

@@ -1,6 +1,5 @@
 #
-#  Date:  Oct 13 2020
-#  File:  case-2.py (NASA Near Earth Object API)
+#  File:  NASA-API.py (NASA Near Earth Object API)
 #  Auth:  Monica Ihli monica@utk.edu
 #
 #  Generate a free API key for NASA apis from https://api.nasa.gov/
@@ -27,7 +26,8 @@ endpoint = "feed"
 
 # setup query parameters.
 start = "2020-10-01"
-end = "2020-10-01"
+end = "2020-10-07"
+#end = "2021-10-01"  # Watch what happens if you change this to too long a feed
 with open('apikey.txt', 'r') as keyfile:
   apikey = keyfile.read()
 
@@ -44,8 +44,10 @@ if response.status_code == 200:
   response_string = json.loads(response.text) # load the string version of the response to a json object
   print(json.dumps(response_string, indent=2))
 
+else:
+  print("Something went wrong. Unable to fetch the data!")
+
   # some things to watch out for with this response:
-  # - notice that the first element is called links, and it tells you the URL for what comes before and what comes after
   # - notice the "element_count" tells you the count of how many objects matched your query
   # - notice that there are IDs / NEO reference IDs -- This API has another endpoint that will let you fetch full records
   #   by retrieving the record based on ID number

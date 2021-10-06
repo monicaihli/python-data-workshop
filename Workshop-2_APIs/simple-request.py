@@ -1,6 +1,6 @@
 #
 #  Date:  Oct 13 2020
-#  File:  case-1_B.py
+#  File:  simple-request.py
 #  Auth:  Monica Ihli monica@utk.edu
 
 import requests

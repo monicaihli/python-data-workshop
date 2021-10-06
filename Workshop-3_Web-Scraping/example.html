@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case 4</title>
+
+    <script>
+        function addItem(){
+            var li = document.createElement("LI");
+            var input = document.getElementById("add");
+            li.innerHTML = "veggie lasagna";
+            document.getElementById("mealplan").appendChild(li);
+        }
+    </script>
+</head>
+<body>
+
+
+        <div id="clickMe" onclick="clickMe()">
+            Weekly Meal Plan
+        </div>
+        <div>
+        <ul id="mealplan">
+            <li>roast beef</li>
+            <li>sushi</li>
+            <li>black bean burgers</li>
+        </ul>
+        <input type="button" id="btnAdd" value="Add" onclick="addItem()"/>
+        </div>
+</body>
+</html>
